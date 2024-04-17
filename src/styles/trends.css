@@ -1,0 +1,32 @@
+.trends-page {
+    background-color: #F9F1F0;
+    padding: 20px;
+  }
+  
+  .trends-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .trend-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .trend-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  .user-id{
+    font-size: 20px;
+  }
+  .experience{
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: solid rgb(86, 42, 144) underline;
+  }
+ 

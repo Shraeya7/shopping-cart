@@ -1,49 +1,63 @@
+/* shop.css */
+.shop {
+  background-color: #F9F1F0; /* Set background color to #F9F1F0 */
+}
+
 .shopTitle {
   margin-top: 100px;
   text-align: center;
   font-size: 40px;
+  color: #900020; /* Set title color to #900020 */
 }
+
 .products {
   width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  margin-bottom: 150px;
 }
 
 .product {
+  position: relative;
   border-radius: 15px;
-  width: 300px;
-  height: 350px;
-  margin: 100px;
+  width: 400px;
+  height: 500px;
+  margin: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3); /* Increase opacity of box shadow */
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Increase opacity of border */
+  overflow: hidden; /* Hide overflow for popup effect */
+  transition: transform 0.3s ease; /* Add transition */
+}
+
+.product:hover {
+  transform: scale(1.1); /* Scale up the card */
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 .product img {
-  width: 400px;
+  width: 350px;
 }
 
 .product .description {
   text-align: center;
 }
 
-.product:hover {
-  transition: 0.3s ease-in;
-  cursor: pointer;
-}
-
 .addToCartBttn {
   background-color: transparent;
   border: 2px solid rgb(19, 19, 19);
-  min-width: 100px;
+  min-width: 70px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;
+  color: rgb(5, 4, 4);
 }
 
 .addToCartBttn:hover {
@@ -51,3 +65,16 @@
   color: white;
   cursor: pointer;
 }
+.addToCartBttn {
+  background-color: white; 
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  height: 30px; 
+  width: 150px;
+}
+

@@ -1,0 +1,54 @@
+
+
+.coupons-page {
+  background-color: #F9F1F0;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.coupon {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+  max-width: 1500px;
+  margin-left: 50px;
+  border: 2px solid #000000;
+  height: 90px;
+}
+
+.coupon:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.coupon h2 {
+  color: #FA7070; 
+  text-decoration: solid #FA7070 underline;
+}
+
+.coupon p {
+  color: #0802A3; 
+  font-weight: 600;
+}
+span{
+  font-size: 20px;
+}
+

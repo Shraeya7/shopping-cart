@@ -1,0 +1,21 @@
+.trend-card {
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .trend-card h2 {
+    font-size: 20px; 
+  }
+  
+  .trend-card .star-rating {
+    margin-bottom: 10px;
+  }
+  
+  .trend-card .star {
+    color: #FFD700;
+    margin-right: 5px;
+  }
+  

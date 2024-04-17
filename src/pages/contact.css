@@ -1,0 +1,58 @@
+body {
+  margin-right: 0px;
+}
+
+.content,h1{
+  margin-left: 15px;
+}
+
+h1{
+  text-decoration: solid underline black ;
+}
+
+.contact {
+  background-color: #FADCD9;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 300px;
+  height: 20px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  height: 50px;
+  width: 400px;
+}
+
+.send-button {
+  background-color: #900020;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #6e001a;
+}
+
+span {
+  font-size: 25px;
+  margin: 8px;
+}
+
+.info-item {
+  margin: 10px;
+}
+
+h2 {
+  color: #900020;
+}
